@@ -1,2 +1,0 @@
-# mips
-Metaverse Improvement Proposals

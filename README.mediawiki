@@ -1,0 +1,29 @@
+People wishing to submit MIPs (which is in same workflow as what bitcoin-core does, see :[https://github.com/bitcoin/bips/blob/master/README.mediawiki]), first should propose their idea or document to the mailing list. After discussion they should email Hao Chen &lt;hao.chen@viewfin.com&gt;. After copy-editing and acceptance, it will be published here.
+
+We are fairly liberal with approving MIPs, and try not to be too involved in decision making on behalf of the community. The exception is in very rare cases of dispute resolution when a decision is contentious and cannot be agreed upon. In those cases, the conservative option will always be preferred.
+
+Having a MIP here does not make it a formally accepted standard until its status becomes Active. For a MIP to become Active requires the mutual consent of the community.
+
+Those proposing changes should consider that ultimately consent may rest with the consensus of the Metaverse users.
+
+{| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
+!Number
+!Layer
+!Title
+!Owner
+!Type
+!Status
+|-
+| [[mip-0001.mediawiki|1]]
+| Consensus (soft fork)
+| Asset Lock&Unlock transactions
+| Hao Chen, Dongyun Wang
+| Standard
+| Draft
+|-
+| [[mip-0002.mediawiki|2]]
+| Consensus (soft fork)
+| Digital Identity transactions
+| Hao Chen, Dongyun Wang
+| Standard
+| Draft
