@@ -2,7 +2,7 @@
       Title: MIP Purpose and Guidelines
       Status: Draft
       Type: Meta
-      Author: Hao Chen<hao.chen@viewfin.com>
+      Author: Hao Chen<hao.chen@mvs.org>
       Created: 2017-06-01
 
 What is an MIP?
@@ -26,10 +26,10 @@ There are three types of MIP:
     -   **Core** - improvements requiring a consensus fork (e.g. [MIP5], [MIP101]), as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions (for example, [MIP90], and the miner/node strategy changes 2, 3, and 4 of [MIP86]).
     -   **Networking** - includes improvements around [devp2p] ([MIP8]) and [Light Metaverse Subprotocol], as well as proposed improvements to network protocol specifications of [whisper] and [swarm].
     -   **Interface** - includes improvements around client [API/RPC] specifications and standards, and also certain language-level standards like method names ([MIP59], [MIP6]) and [contract ABIs]. The label “interface” aligns with the [interfaces repo] and discussion should primarily occur in that repository before an MIP is submitted to the MIPs repository.
-    -   **ERC** - application-level standards and conventions, including contract standards such as token standards ([ERC20]), name registries ([ERC26], [ERC137]), URI schemes ([ERC67]), library/package formats ([MIP82]), and wallet formats ([MIP75], [MIP85]).
+    -   **ECO** - application-level standards and conventions, including token usage standards such as digital asset standards ([MT]), digital identity standards ([MI]).
 
 -   An **Informational MIP** describes a Metaverse design issue, or provides general guidelines or information to the Metaverse community, but does not propose a new feature. Informational MIPs do not necessarily represent Metaverse community consensus or a recommendation, so users and implementers are free to ignore Informational MIPs or follow their advice.
--   A **Meta MIP** describes a process surrounding Metaverse or proposes a change to (or an event in) a process. Process MIPs are like Standards Track MIPs but apply to areas other than the Metaverse protocol itself. They may propose an implementation, but not to Metaverse's codebase; they often require community consensus; unlike Informational MIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Metaverse development. Any meta-MIP is also considered a Process MIP.
+-   A **Meta MIP** (MMIP) describes a process surrounding Metaverse or proposes a change to (or an event in) a process. Process MIPs are like Standards Track MIPs but apply to areas other than the Metaverse protocol itself. They may propose an implementation, but not to Metaverse's codebase; they often require community consensus; unlike Informational MIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Metaverse development. Any meta-MIP is also considered a Process MIP.
 
 MIP Work Flow
 -------------
@@ -216,3 +216,4 @@ This document was derived heavily from [Bitcoin's BIP-0001] written by Amir Taak
 
   [Bitcoin's BIP-0001]: https://github.com/bitcoin/bips
   [Python's PEP-0001]: https://www.python.org/dev/peps/
+  [Metaverse's EIP-0001]: https://github.com/ethereum/EIPs
