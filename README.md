@@ -13,7 +13,9 @@ First review [MMIP-1](meta-mip/MMIP-1.md). Then clone the repository and add you
 # Non-final MIPs
 | Number                    | Title                                                   | Author                        | Layer     | Status     |
 | ------------------------- | ------------------------------------------------------- | ----------------------------- | --------- | ---------- |
-| [2](mips/mip-2.md)        |  Adjust reward rate of deposit function                 | Hao Chen, Youming   | ECO    | Draft      |
+| [2](mips/mip-2.md)        |  Adjust reward rate of deposit function                 | Hao Chen, Youming   | Core/ECO    | Draft      |
+| [3](mips/mip-3.md)        |  Digital Assets Secondary Issue                 | Hao Chen, Youming   | ECO    | Draft      |
+| [4](mips/mip-4.md)        |  Digital Assets Issuance Right and Extension Rights                 | Hao Chen, Youming   | ECO    | Draft      |
 
 # Deferred MIPs
 | Number                                             | Title                                                                                        | Author                                     | Layer      | Status   |
