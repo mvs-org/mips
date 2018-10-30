@@ -60,16 +60,31 @@ FICO分的区间在300~850分之间，不同的得分档次意味着不同的违
 
 
 ### Model Design（模型设计）
-元界数字身份的声誉系统的设计将基于目前元界区块链功能/数据的维度如充值记录、转账历史、MST数字货币存量、MIT数字资产存量、发币历史等并参考目前市场流行的信贷风险评估模型建立。
+元界数字身份的声誉系统的设计将基于目前元界区块链功能/数据的维度如充值记录、转账历史、MST数字货币存量、MIT数字资产存量、发币历史等并参考目前市场流行的信贷风险评估模型建立。模型的框架基于多维度的权重模型，根据元界区块链上不同的应用（包括公链在内）的所有数据维度，都可以建立该应用（包括公链本身）
+的声誉模型。本文以建立元界公链本身的信誉体系为基准。
+
+### Dimension Selection 维度选择
+根据以上对目前市场的声誉信用评级模型结合元界区块链和数字身份的功能，以下维度将被选择为元界MARS的评级维度。
+
+*1.行为偏好（转账次数/周、充值次数/周、MIT发布资产/月、MST发币次数）占模型35%*
+
+*2.履约能力（ETP账户地址资产量、MST资产量、MIT资产量）占模型30%*
+
+*3.信用历史（矿工费支付数量/次）20%*
+
+*4.人际关系（转账对象的数量）15%*
+
+### Model Construction （模型构建）
+基准分数
 
 
-
+Pending
 
 ## Rationale
 To be written.
 
 ## Backwards Compatibility
-Existed deposit transactions is valid always, however, if this MIP done, system DO NOT accept old type deposit transaction any more.
+The main function of the The Metaverse Avatar Reputation System (MAR) is to reflect the MVS Avatar Data
 
 ## Test Cases
 Test cases for an implementation are mandatory for MIPs that are affecting consensus changes. Other MIPs can choose to include links to test cases if applicable.
