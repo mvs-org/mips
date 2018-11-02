@@ -75,7 +75,11 @@ FICO分的区间在300~850分之间，不同的得分档次意味着不同的违
 *4.人际关系（转账对象的数量）15%*
 
 ### Model Construction （模型构建）
-基准分数
+本模型将以元界数字身份在元界区块链的行为数据及基础分为基础，通过评分卡模型的打分综合形成数字身份的声誉分数。模型公式如下：
+
+MARS = Basic Marks + Personal Berhaviour *35% + Capability Performance *30% + Credit History *20% + Social Network * 15%
+
+
 
 
 Pending
