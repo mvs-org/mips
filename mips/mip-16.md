@@ -3,7 +3,7 @@
 ```
 MIP: 16
 Title: Metaverse Avatar Reputation System
-Author: Patrick Tsoi, Penny Mao, Chang Liu
+Author: Patrick Tsoi, Penny Mao
 Type: Standard Track
 Category: Core/ECO
 Status: Draft
@@ -79,32 +79,86 @@ FICO分的区间在300~850分之间，不同的得分档次意味着不同的违
 
 *MARS = Basic Marks + Personal Berhaviour *35% + Capability Performance *30% + Credit History *20% + Social Network * 15%*
 
-| Category   |Factor 1   |Factor 2|Factor 3|Factor 4|
-| --------   | -----:   | :----: | :----: |:----: |
-| 行为偏好（Personal Behaviour)       |转账次数/月|充值次数/月|MIT发布资产数量/月 |MST发币次数/月||
-| 履约能力（Capablility Performance） |ETP账户地址平均资产量/月|MST平均资产量/月|MIT平均平均资产量/月|||
-| 信用历史（Credit History）          |矿工费支付平均数量/月||||
-| 人机关系（Social Network）          |转账对象的数量/月| | | |
+### 各个维度的因子构成（会依据日后元界的应用的更新而更新）
+| Category                                   |                 Factor 1 |     Factor 2     |      Factor 3      |        Factor 4        |
+| ------------------------------------------ | -----------------------: | :--------------: | :----------------: | :--------------------: |
+| 行为偏好（Personal Behaviour)（35%）       |              转账次数/月 |   充值次数/月    | MIT发布资产次数/月 |     MST发币次数/月     |
+| 履约能力（Capablility Performance）（30%） | ETP账户地址平均资产量/月 | MST平均资产量/月 |  MIT平均资产量/月  | 数字身份存在时间（月） |
+| 信用历史（Credit History）(20%)            |    矿工费支付平均数量/月 |                  |                    |                        |
+| 人际关系（Social Network）（15%）          |        转账对象的数量/月 |                  |                    |                        |
 
-各个因子分数
+### 各因子评分分数
 
-1.转账次数/月（10%）、充值次数/月（10%）
+#### 1.转账次数/月、充值次数/月
 
-| Category   |Factor 1|
-| --------   | -----: | 
-|0-10次|20分|
-|11-50次|50分|
-|51-200|70分|
-|200次或以上|100分|
+| Times       | Credit |
+| ----------- | -----: |
+| 0-10次      |   20分 |
+| 11-50次     |   50分 |
+| 51-200      |   70分 |
+| 200次或以上 |  100分 |
 
-2.MIT发布资产数量/月（5%）、MST发币次数/月（10%）
+#### 2.MIT发布资产次数/月、MST发币次数/月
 
-| Category   |Factor 1|
-| --------   | -----: | 
-|0-1次|20分|
-|2-5次|50分|
-|5-8次|70分|
-|8次或以上|100分|
+| Times     | Credit |
+| --------- | -----: |
+| 0-1次     |   20分 |
+| 2-5次     |   50分 |
+| 5-8次     |   70分 |
+| 8次或以上 |  100分 |
+
+#### 3.ETP账户地址平均资产量、MST平均资产量/月
+
+| Amount                           | Credit |
+| -------------------------------- | -----: |
+| 约合0-5,000.00ETP                |   20分 |
+| 约合5001.00-200,000.00ETP        |   50分 |
+| 约合200,001.00-100,000,000.00ETP |   70分 |
+| 约合100,000,000.00ETP或以上      |  100分 |
+
+
+#### 4.MIT平均资产量/月
+
+| Amount      | Credit |
+| ----------- | -----: |
+| 0-10个      |   20分 |
+| 11-50个     |   50分 |
+| 51-200个    |   70分 |
+| 200个或以上 |  100分 |
+
+#### 5.矿工费支付平均数量/月
+| Amount      | Credit |
+| ----------- | -----: |
+| 0-1ETP      |   20分 |
+| 1-20ETP     |   50分 |
+| 21-50ETP    |   70分 |
+| 50ETP或以上 |  100分 |
+
+#### 6.转账对象的数量/月
+| Amount of Unique Address | Credit |
+| ------------------------ | -----: |
+| 0-5个                    |   20分 |
+| 5-20个                   |   50分 |
+| 21-50个                  |   70分 |
+| 50个或以上               |  100分 |
+
+#### 7.Avatar数字身份存在时长
+
+| Period             | Credit |
+| ------------------ | ------ |
+| 0-6 Months         | 20分   |
+| 7-24 Months        | 40分   |
+| 25-48 Months       | 60分   |
+| 49-72months        | 80分   |
+| 72months or longer | 100分  |
+
+## Example：
+- Avatar：**pattsoi**
+  - MARS = 200 + PB（20+20+20+20）*0.35 +CP（50+20+20+40)*30% +CH(20）*20% +SN（50）*15% 
+         = 200 + 80 * 0.35 + 130 * 0.30 + 20 * 0.20 + 50 *0.15
+         = 200 + 28 + 39 + 4 + 7.5
+         = 278.5
+
 
 ## Rationale
 To be written.
@@ -113,8 +167,7 @@ To be written.
 The main function of the The Metaverse Avatar Reputation System (MAR) is to reflect the MVS Avatar Data
 
 ## Test Cases
-Test cases for an implementation are mandatory for MIPs that are affecting consensus changes. Other MIPs can choose to include links to test cases if applicable.
+待定
 
 ## Implementation
-The implementations must be completed before any MIP is given status "Final", but it need not be completed before the MIP is accepted. While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.
-
+相关项目实施根据元界区块链上的数据进行计算并形成仪表盘形式表达个数字身份的声誉分数
