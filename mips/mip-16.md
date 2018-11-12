@@ -155,29 +155,23 @@ Based on the above-mentioned reputational credit rating model for the current ma
 
 `其中A-B的最大特征值为 4.1725`
 
-
-
 ![img](https://latex.codecogs.com/gif.latex?%5Clambda%20Max%20%3D%204.1725)
 
-
-
-`计算一致性指标*CI*=(*λ*max-*n*)/(*n*-1)与平均随机一致性指标*RI*。`
-
-
+`计算一致性指标*CI*=(*λ*max-*n*)/(*n*-1)与平均随机一致性指标*RI*。
 
 ![CI=\frac{\lambda_{max}(A)-n}{n-1}](https://wiki.mbalib.com/w/images/math/a/2/f/a2f76c2d18d4da97c14568579baa6a15.png)
 
-`根据以上模型最大特征值4.4527，CI =4.1725-4/(4-1) = 0.0575,RI=0.9。按下面公式计算成对比较阵 A 的随机一致性比率 CR，并规定*CR*=*CI*/*RI*，若*CR*＜0.1，则认为该判断矩阵具有满意一致性；若*CR*=0，则该判断矩阵具有完全一致性。：`
+根据以上模型最大特征值4.4527，CI =4.1725-4/(4-1) = 0.0575,RI=0.9。按下面公式计算成对比较阵 A 的随机一致性比率 CR，并规定*CR*=*CI*/*RI*，若*CR*＜0.1，则认为该判断矩阵具有满意一致性；若*CR*=0，则该判断矩阵具有完全一致性。：
 
 ![CR=\frac{CI}{RI}](https://wiki.mbalib.com/w/images/math/d/f/b/dfb18ca32123b073203bc41c6050bb0f.png)
 
-`CR计算后得出为 0.06389小于0.1`
+CR计算后得出为 0.06389小于0.1
 
 ![img](https://latex.codecogs.com/gif.latex?%5Csmall%20CR%3D0.0575/0.9%20%3D%200.06389)
 
-`因此以上矩阵具有满意一致性。`
+因此以上矩阵具有满意一致性。
 
-`由以上数据计算各B级权重可以得出4个一级指标的模型如下：`
+由以上数据计算各B级权重可以得出4个一级指标的模型如下：
 
 ![img](https://latex.codecogs.com/gif.latex?%5Csmall%20A%20%3D%200.258418168%20%5Ctimes%20B1%20+0.422866092%20%5Ctimes%20B2%20+%200.223179327%20%5Ctimes%20B3%20+%200.095536413%20%5Ctimes%20B4)
 
@@ -185,7 +179,7 @@ Based on the above-mentioned reputational credit rating model for the current ma
 
 #### 各因子评分分数
 
-#### `1.转账次数/月、充值次数/月`
+#### 1.转账次数/月、充值次数/月
 
 | `Times`       | `Credit` |
 | ------------- | -------: |
