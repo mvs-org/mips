@@ -128,8 +128,8 @@ Created: 2018-10-29
 	
 	2) 构造因素对比判断矩阵。将处在同一层级且对同一上级指标有影响的各因素指标两两对比，依次构成对比矩阵，并将对比矩阵**A**表示:
 
-`![1541923420910](C:\Users\N782017\AppData\Local\Temp\1541923420910.png)`
 
+![img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaMs4lSikwOu_TYPFzTZYn7XGuDNP99nFOqSEdXGfzhXBMA2Dfiw)
 
 
 `其中*a**ij*为因素*i*相对因素*j*而言的重要程度对比结果, *a**ij*的值越大表明因素*i*相对因素*j*而言越重要。`
@@ -151,13 +151,13 @@ Created: 2018-10-29
 
 `**A**表示MARS分数，**B**表示影响**A**的所有一级指标：行为偏好**B**1，履约能力**B**2，信用历史**B**3，人际关系**B**4。将四个一级指标两两对比，使用3分位比率排定各指标的相对优劣等级，经专家打分，得出**A**相对于一级指标的判断矩阵：`
 
-`![img](https://latex.codecogs.com/gif.latex?A-B%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200.5%20%26%202%20%26%202%5C%5C%202%20%26%201%20%26%204%20%26%202%5C%5C%200.5%20%26%200.25%20%26%201%20%26%203%5C%5C%200.33%20%26%200.5%20%26%200.2%20%26%201%20%5Cend%7Bbmatrix%7D)`
+![img](https://latex.codecogs.com/gif.latex?A-B%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200.5%20%26%202%20%26%202%5C%5C%202%20%26%201%20%26%204%20%26%202%5C%5C%200.5%20%26%200.25%20%26%201%20%26%203%5C%5C%200.33%20%26%200.5%20%26%200.2%20%26%201%20%5Cend%7Bbmatrix%7D)
 
 `其中A-B的最大特征值为 4.1725`
 
 
 
-`![img](https://latex.codecogs.com/gif.latex?%5Clambda%20Max%20%3D%204.1725)`
+![img](https://latex.codecogs.com/gif.latex?%5Clambda%20Max%20%3D%204.1725)
 
 
 
@@ -169,19 +169,17 @@ Created: 2018-10-29
 
 `根据以上模型最大特征值4.4527，CI =4.1725-4/(4-1) = 0.0575,RI=0.9。按下面公式计算成对比较阵 A 的随机一致性比率 CR，并规定*CR*=*CI*/*RI*，若*CR*＜0.1，则认为该判断矩阵具有满意一致性；若*CR*=0，则该判断矩阵具有完全一致性。：`
 
-`![CR=\frac{CI}{RI}](https://wiki.mbalib.com/w/images/math/d/f/b/dfb18ca32123b073203bc41c6050bb0f.png)`
+![CR=\frac{CI}{RI}](https://wiki.mbalib.com/w/images/math/d/f/b/dfb18ca32123b073203bc41c6050bb0f.png)
 
 `CR计算后得出为 0.06389小于0.1`
 
-`![img](https://latex.codecogs.com/gif.latex?%5Csmall%20CR%3D0.0575/0.9%20%3D%200.06389)`
+![img](https://latex.codecogs.com/gif.latex?%5Csmall%20CR%3D0.0575/0.9%20%3D%200.06389)
 
 `因此以上矩阵具有满意一致性。`
 
 `由以上数据计算各B级权重可以得出4个一级指标的模型如下：`
 
-`![img](https://latex.codecogs.com/gif.latex?%5Csmall%20A%20%3D%200.258418168%20%5Ctimes%20B1%20+0.422866092%20%5Ctimes%20B2%20+%200.223179327%20%5Ctimes%20B3%20+%200.095536413%20%5Ctimes%20B4)`
-
-
+![img](https://latex.codecogs.com/gif.latex?%5Csmall%20A%20%3D%200.258418168%20%5Ctimes%20B1%20+0.422866092%20%5Ctimes%20B2%20+%200.223179327%20%5Ctimes%20B3%20+%200.095536413%20%5Ctimes%20B4)
 
 `各B级分数则根据各以下分数进行加法运算：`
 
@@ -252,14 +250,11 @@ Created: 2018-10-29
 
 `MARS分数公式将引入基础分作为Avatar的底线分数，目前设定为200分，配合以上的B级指标的公式如下：`
 
-`![img](https://latex.codecogs.com/gif.latex?MARS%20%3D%20200%20+%20A)`
+![img](https://latex.codecogs.com/gif.latex?MARS%20%3D%20200%20+%20A)
 
 `A公式为：`
 
-
-
-`![img](https://latex.codecogs.com/gif.latex?%5Csmall%20A%20%3D%200.258418168%20%5Ctimes%20B1%20+0.422866092%20%5Ctimes%20B2%20+%200.223179327%20%5Ctimes%20B3%20+%200.095536413%20%5Ctimes%20B4)`
-
+![img](https://latex.codecogs.com/gif.latex?%5Csmall%20A%20%3D%200.258418168%20%5Ctimes%20B1%20+0.422866092%20%5Ctimes%20B2%20+%200.223179327%20%5Ctimes%20B3%20+%200.095536413%20%5Ctimes%20B4)
        
 
 ## `数据对接及展示`
@@ -276,7 +271,7 @@ Created: 2018-10-29
 `The main function of the The Metaverse Avatar Reputation System (MAR) is to reflect the MVS Avatar Data`
 
 ## `Test Cases`
-`待定`
+`Pending`
 
 ## `Implementation`
 `相关项目实施根据元界区块链及其他链外数据进行计算并形成仪表盘形式表达个数字身份的声誉分数`
