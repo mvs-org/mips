@@ -153,11 +153,11 @@ Based on the above-mentioned reputational credit rating model for the current ma
 
 ![img](https://latex.codecogs.com/gif.latex?A-B%3D%5Cbegin%7Bbmatrix%7D%201%20%26%200.5%20%26%202%20%26%202%5C%5C%202%20%26%201%20%26%204%20%26%202%5C%5C%200.5%20%26%200.25%20%26%201%20%26%203%5C%5C%200.33%20%26%200.5%20%26%200.2%20%26%201%20%5Cend%7Bbmatrix%7D)
 
-`其中A-B的最大特征值为 4.1725`
+其中A-B的最大特征值为 4.1725
 
 ![img](https://latex.codecogs.com/gif.latex?%5Clambda%20Max%20%3D%204.1725)
 
-`计算一致性指标*CI*=(*λ*max-*n*)/(*n*-1)与平均随机一致性指标*RI*。
+计算一致性指标*CI*=(*λ*max-*n*)/(*n*-1)与平均随机一致性指标*RI*。
 
 ![CI=\frac{\lambda_{max}(A)-n}{n-1}](https://wiki.mbalib.com/w/images/math/a/2/f/a2f76c2d18d4da97c14568579baa6a15.png)
 
