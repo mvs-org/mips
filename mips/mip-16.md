@@ -165,7 +165,7 @@ Created: 2018-10-29
 
 
 
-`![CI=\frac{\lambda_{max}(A)-n}{n-1}](https://wiki.mbalib.com/w/images/math/a/2/f/a2f76c2d18d4da97c14568579baa6a15.png)`
+![CI=\frac{\lambda_{max}(A)-n}{n-1}](https://wiki.mbalib.com/w/images/math/a/2/f/a2f76c2d18d4da97c14568579baa6a15.png)
 
 `根据以上模型最大特征值4.4527，CI =4.1725-4/(4-1) = 0.0575,RI=0.9。按下面公式计算成对比较阵 A 的随机一致性比率 CR，并规定*CR*=*CI*/*RI*，若*CR*＜0.1，则认为该判断矩阵具有满意一致性；若*CR*=0，则该判断矩阵具有完全一致性。：`
 
