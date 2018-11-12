@@ -1,4 +1,4 @@
-## `Preamble`
+## Preamble
 
 ```
 MIP: 16
@@ -9,15 +9,15 @@ Category: Core/ECO
 Status: Draft
 Created: 2018-10-29
 ```
-`**(The following is the Chinese version and will be translated into English later on）**`
-## `Simple Summary`
-`本文将基于对社会角色、社会地位与声誉的相关理论来阐述元界数字身份声誉系统的理论基础和模型设计。`
+**(The following is the Chinese version and will be translated into English later on）**
+## Simple Summary
+本文将基于对社会角色、社会地位与声誉的相关理论来阐述元界数字身份声誉系统的理论基础和模型设计。
 
 This MIP will explain the theoretical basis and model design of the Metaverse Avatar Reputation System in the Metaverse based on the relevant theories of social roles, social status and reputation.
 
-## `Theoretical Background`
-### `Social Role、Social Status and Reputation (社会角色、社会地位与声望)`
-`社会地位是指社会个人在社会上，根据其社会阶级所得到的荣誉和声望。社会地位可以通过自致或者先赋予两种方式决定。一种是通过自致地位，即透过自己后天的的努力争取回来的社会地位，或者指一个人在其一生中通过行使知识、能力、技巧等所取得的结果；二是先赋地位，即一个人是透过先天来自家族或者团体等承袭得到其于社会分层体系中所处的位置；先赋地位亦意指在某些社会中，一个人从出生起就被赋予无法改变的社会地位。在整个人类社会中有基于性别、年龄、种族、国别和家庭背景等的先赋社会地位。例如，某些家族基于巨大的物资财务而可能有着高知名度和声誉、某些成员以能干闻名于社会、以及坐拥巨大财富等特征，若一个人出生于其中，在成长过程里将会背负着很多期望。故此，他们会被赋予多种社会角色并加以训练，在这个逐步取得家族特征的过程中，他们将会被社会定位于这个家族之中。而职业所带来的地位则是可能个同时不属于先赋或自致地位的例子，它是一个人可以通过得到正确的知识和技巧而获社会定位到该工作的更高位置，从而建立个人在职业中的社会角色。`
+## Theoretical Background
+### Social Role、Social Status and Reputation (社会角色、社会地位与声望)
+社会地位是指社会个人在社会上，根据其社会阶级所得到的荣誉和声望。社会地位可以通过自致或者先赋予两种方式决定。一种是通过自致地位，即透过自己后天的的努力争取回来的社会地位，或者指一个人在其一生中通过行使知识、能力、技巧等所取得的结果；二是先赋地位，即一个人是透过先天来自家族或者团体等承袭得到其于社会分层体系中所处的位置；先赋地位亦意指在某些社会中，一个人从出生起就被赋予无法改变的社会地位。在整个人类社会中有基于性别、年龄、种族、国别和家庭背景等的先赋社会地位。例如，某些家族基于巨大的物资财务而可能有着高知名度和声誉、某些成员以能干闻名于社会、以及坐拥巨大财富等特征，若一个人出生于其中，在成长过程里将会背负着很多期望。故此，他们会被赋予多种社会角色并加以训练，在这个逐步取得家族特征的过程中，他们将会被社会定位于这个家族之中。而职业所带来的地位则是可能个同时不属于先赋或自致地位的例子，它是一个人可以通过得到正确的知识和技巧而获社会定位到该工作的更高位置，从而建立个人在职业中的社会角色。
 
 Social status refers to the glory and prestige that social individuals receive in society and according to their social class. Social status can be determined either by self-intention or by giving two ways. One is through self-sufficiency, that is, the social status that is sought back through the efforts of the day after tomorrow, or the result of a person’s knowledge, ability, skill, etc. in his/her life. The second is the status of the first position, that is, a person is in a position in the social stratification system by inherited from the family or the group; the first status also means that in some society, a person from birth Being given an	unchangeable social status. There are social status in the entire human society based on gender, age, ethnicity, country and family background. For example, some families may have high reputation and reputation based on huge material finances, some members are known for their ability to be socially, and have great wealth. If a person is born, he will bear the burden during his growth with a lot of expectations. Therefore, they will be given a variety of social roles and trained, in the process of gradually acquiring family characteristics, they will be positioned by the society in this family. The status brought by the profession is an example of a situation that is not at the same time a pre-existing or self-sufficient position. It is a person who can obtain a correct position in the work by obtaining the correct knowledge and skills. Social role in the profession.
 
