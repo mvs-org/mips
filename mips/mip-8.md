@@ -1,8 +1,8 @@
 ## Preamble
 
 ```
-MIP: X
-Title: Digital Aseets Lock-Unlock Model
+MIP: 8
+Title: Digital Aseets Lock-Unlock Model on block height
 Author: Frank Su
 Type: Standard Track
 Category: ECO
@@ -77,7 +77,7 @@ This model provides a normal Token mode without any locking.
 After choosing this model, IQ must be filled and greater than 0, while LQ is 0. In fact, there is no requirement for asset lock and unlock.
 
 For example, user issued all 20 million A-Token on 1st Dec 2017 without any locking. It means that all these 20 million Token can be directlly circulated on the chain. Then, the program can get the data as below:
-图片: https://images-cdn.shimo.im/uU97rtk6NQYUr1dR/image.png
+![p5](https://images-cdn.shimo.im/uU97rtk6NQYUr1dR/image.png)
 
 ## Rationale
 To be written.
