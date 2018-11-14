@@ -6,7 +6,7 @@ Title: Digital Assets Secondary Issue (Secondary offering)
 Author: Hao Chen
 Type: Standard Track
 Category: ECO
-Status: Draft
+Status: Final
 Created: 2018-03-29
 ```
 

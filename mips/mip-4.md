@@ -6,7 +6,7 @@ Title: Digital Assets - Issuance Right and the Extensions of Other Rights 
 Author: Hao Chen
 Type: Standard Track
 Category: ECO
-Status: Draft
+Status: Final
 Created: 2018-04-10
 ```
 
