@@ -3,7 +3,7 @@
 ```
 MIP: 16
 Title: Metaverse Avatar Reputation System
-Author: Patrick Tsoi
+Author: Patrick Tsoi, Penny Mao
 Type: Standard Track
 Category: Core/ECO
 Status: Draft
